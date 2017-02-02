@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+}
+
+#banner_image {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+
+}
+
+#header_1 {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 40pt;
+    text-shadow: 10px 10px 5px #888888;
+    font-family: arial;
+}
+
+#rotten33 {
+    font-family: arial;
+    font-size: 60pt;
+    color: red;
+    background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+    border-radius: 25px 25px 0 0;
+}
+
+#splat_img {
+    border-radius: 25px 25px 25px 25px;
+}
+
+#whole_central_area {
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 10px 10px 5px #888888;
+    font-size: 10pt;
+    background-color: #A2B964;
+    border-radius: 25px;
+}
+
+dt{
+    font-weight:bold;
+}
+
+#movie_preview {
+    width: 33%;
+    float: right;
+}
+
+.sub_review {
+    font-style:italic;
+    text-align: center;
+    float:right;
+
+}
+
+#first_column_reviews {
+    width: 33%;
+    float: right;
+    background-color: #EEEEEE;
+    height: 900px;
+}
+
+#second_column_reviews {
+    width: 33%;
+    float: right;
+    background-color: #EEEEEE;
+    height: 900px;
+}
+
+#page_numbers {
+    margin-left: 40%;
+    margin-right: 40%;
+    clear: right;
+    text-align: center;
+}
+
+.review_box {
+    border-style: solid;
+    border-width: 2px;
+    background-color: aqua;
+    margin: 3%;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#validators {
+    float: right;
+    clear: right;
+    opacity:.5;
+}
